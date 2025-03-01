@@ -1,0 +1,7 @@
+# path: C:/Users/jphoy/Desktop/helmet_detection/dataset
+# train: images/train
+# val: images/val
+# test: images/test
+
+# nc: 6
+# names: ["helmet", "head", "face", "head_w_helmet", "person_w_helmet", "person"]
