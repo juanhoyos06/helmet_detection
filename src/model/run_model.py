@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 model = YOLO("./runs/train/weights/best.pt")
 
-results = model("./assets/prueba1.jpg", conf=0.3, iou=0.6, show=True, save=True)	
+results = model("./assets/image.png", conf=0.5, show=False, save=True)	
 # from pathlib import Path
 
 # dataset_path = Path("./runs/train/custom_exp/train/weights/best.pt")
